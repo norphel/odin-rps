@@ -1,0 +1,13 @@
+body {
+    margin: 0 auto;
+    max-height: 100vh;
+}
+h1 {
+    text-align: center;
+}
+#container {
+    display: flex;
+    flex-direction: row;
+    min-height: 500px;
+    background-color: lime;
+}
