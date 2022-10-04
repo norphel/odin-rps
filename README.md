@@ -10,7 +10,7 @@ This mini-project is a simple console based Rock Papers Scissors game implementi
 - basic string methods
 
 Update (04-10-2022)
-The game has now been updated to UI based 
-concepts learned and implemented were:
+The game has now been updated to UI based.
+Concepts learned and implemented were:
 - DOM manipulation basics
 - Git branching and merging
