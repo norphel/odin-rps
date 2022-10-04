@@ -59,11 +59,13 @@ h2 {
     display: flex;
     align-items: center;
 }
-#container > .you > .your-choice {
+#container > .you > .your-choice,
+#container > .computer > .computer-choice {
     height: 60%;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    justify-content: center;
+    gap: 40px;
 }
 #container > .you > .your-choice > div,
 #container > .computer > .computer-choice > div {
@@ -76,18 +78,11 @@ h2 {
     font-size: 24px;
     display: flex;
     justify-content: center;
-    gap: 10px;
     align-items: center;
     font-weight: bold;
 }
 #container > .you > .your-choice > div:active {
     transform: scale(0.9);
-}
-#container > .computer > .computer-choice {
-    height: 60%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 .your-score,
 .computer-score {
